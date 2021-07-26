@@ -36,8 +36,10 @@ reader.question("What would you like to calculate?", function(input){
 		//square a number
 		console.log(num1*num1)
 	} else if (mathSymbol === "^3") {
+		//cube a number
 		console.log(num1*num1*num1)
 	} else if (mathSymbol === "%") {
+		//modulo
 		console.log(num1 % num2)
 	}
 	// This line closes the connection to the command line interface.
